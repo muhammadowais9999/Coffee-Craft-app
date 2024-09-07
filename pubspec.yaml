@@ -1,0 +1,28 @@
+name: newapp
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  image_picker: ^0.8.5+3 # Added this line
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logoapp.png
+    - assets/coffee1.png
+    - assets/coffee2.png
+    - assets/coffee3.png
+    - assets/coffee4.png
